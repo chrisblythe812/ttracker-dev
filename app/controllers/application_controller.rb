@@ -35,5 +35,4 @@ class ApplicationController < ActionController::Base
       redirect_to(new_project_path)
     end
   end
-
 end

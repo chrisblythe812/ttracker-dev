@@ -23,12 +23,14 @@
                 %li= link_to "Account", accounts_path
                 %li= link_to "Support", support_index_path
                 %li= link_to "Logout", destroy_user_session_path, :method => :delete
+                %li= link_to "About", home_about_path
               - else
                 %li= link_to "Home", root_path
                 %li= link_to "Login", new_user_session_path
+                %li= link_to "About", home_about_path
     .main-container
       #notification
         = render :partial => "shared/flash_messages", :locals => {:flash => flash}
       = yield
     %footer
-      %p &copy; #{Date.today.year} Fundershub AB
+      %p &copy; #{Date.today.year} #{ link_to 'Rasmus Bergström', 'http://www.linkedin.com/in/IMRasmus', :target => '_blank'}

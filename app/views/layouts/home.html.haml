@@ -21,14 +21,16 @@
               - if current_user
                 %li= link_to "Dashboard", dashboard_index_path
                 %li= link_to "Logout", destroy_user_session_path, :method => :delete
+                %li= link_to "About", home_about_path
               - else
                 %li= link_to "Home", root_path
                 %li= link_to "Login", new_user_session_path
+                %li= link_to "About", home_about_path
     .home
       .head
         .thumbnail
           = image_tag("logo_large.png")
-        %p Time management made easy
+        %p Slick and easy time tracking and management
       = yield
       %footer
-        %p &copy; #{Date.today.year} Fundershub AB
+        %p &copy; #{Date.today.year} #{ link_to 'Rasmus Bergström', 'http://www.linkedin.com/in/IMRasmus', :target => '_blank'}

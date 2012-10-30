@@ -49,6 +49,7 @@ Timetracker::Application.routes.draw do
 
   root :to => "home#index"
   match 'home/plans' => 'home#plans'
+  match 'home/about' => 'home#about'
 
   # API
   namespace :api do
@@ -56,5 +57,4 @@ Timetracker::Application.routes.draw do
       post 'login' => 'users#login'
     end
   end
-
 end
