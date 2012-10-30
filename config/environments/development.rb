@@ -32,10 +32,10 @@ Timetracker::Application.configure do
     :address        => 'smtp.sendgrid.net',
     :port           => "25",
     :authentication => :plain,
-    :user_name      => "app4414374@heroku.com",
-    :password       => "wtfkrwo7"
+    :user_name      => "app8830698@heroku.com",
+    :password       => "v3l9gewn"
   }
   config.action_mailer.default_url_options = {
-    :host => "terracoding.com"
+    :host => "fundershub.com"
   }
 end
