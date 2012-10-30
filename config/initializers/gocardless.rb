@@ -1,8 +1,8 @@
 if Rails.env.production?
   GoCardless.account_details = {
-    :app_id     => '_jI0R4zYCG8bNONhNNfFJBruOt5087nitPaO5E4lYyRY_OqY7En62uv_IAcXjpPJ',
-    :app_secret => 'lVFUCVRH5xz5vIuw7TodIof_YYUzhWffR8V7zilaCPT78h7EAD1dVQkM_YJdkB65',
-    :token      => 'Lg41ebP8WULDBM3h+PdP4SXxqF33rFrt8ZBxhZ5D9HGCRgIX4EAOG2MYOcFjt8Je manage_merchant:03RQ003RQE',
+    :app_id     => 'YGX5KR4N6YV9043JWJH71SWH92G5P9DGVP3GNWCQW1XF5TYZA1RCNBJ2QRYZ2KFK',
+    :app_secret => '3FJZHF4MR1ZRNYN53FQ46XBJQ0APE2FHBHR70J8TMZSG8NXTGSG4M7RC1NNKX0Q8',
+    :token      => 'R2GAZ1X0EJ3SNC3DSZ3PRN9QTP4B452SAN4T6PZZVJX852TG90NF00HGY8NDZE68 manage_merchant:073GMS1AJM',
   }
 else
   GoCardless.environment = :sandbox
