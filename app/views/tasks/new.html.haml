@@ -11,7 +11,7 @@
         = f.input :name, :required => true, :autofocus => true, :class => 'input-xlarge', :label => 'Task Name'
         = f.input :billable
         = f.input :rate, :wrapper => :prepend do
-          = content_tag :span, "£", :class => "add-on"
+          = content_tag :span, "SEK", :class => "add-on"
           = f.text_field :rate
         = f.button :submit, "Create Task", :class => 'btn btn-primary'
         = link_to "Back", :back, :class => 'btn'

@@ -8,7 +8,7 @@
       = f.input :name, :required => true, :autofocus => true, :class => 'input-xlarge', :label => 'Task Name'
       = f.input :billable
       = f.input :rate, :wrapper => :prepend do
-        = content_tag :span, "£", :class => "add-on"
+        = content_tag :span, "SEK", :class => "add-on"
         = f.text_field :rate
     .modal-footer
       = f.button :submit, "Update", :class => 'btn btn-primary'
