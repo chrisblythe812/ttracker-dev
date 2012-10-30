@@ -1,6 +1,6 @@
 class SupportMailer < ActionMailer::Base
   
-  default :to => "ttrack@fundershub.com"
+  default :to => "ttrack@b3rgstrom.se"
   
   def new_message(message)
     @message = message
