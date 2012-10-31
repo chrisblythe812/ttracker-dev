@@ -24,7 +24,7 @@
             %dd No registration number
           - if current_user.company.image?
             %dt Logo:
-            %dd= image_tag current_user.company.image.url(:logo)
+            %dd= image_tag current_user.company.image.url(:medium)
         %p
           %a.btn.btn-primary{ :href => edit_company_path(@current_company) }
             %i.icon-pencil.icon-white
