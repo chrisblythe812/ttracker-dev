@@ -18,5 +18,12 @@ class Company < ActiveRecord::Base
     end
     return count
   end
+  
+  attr_accessible :image,
+                  :logo,
+                  :medium,
+                  :thumb,
+                  :url,
+                  :path
 
 end
