@@ -1,5 +1,4 @@
 Plan.create!(:title => "free", :description => "Try out TimeTracker!", :value => 0, :duration => "MONTHLY", :project_count => 1, :user_count => 2)
-Plan.create!(:title => "starter", :description => "Great for individuals", :value => 8, :duration => "MONTHLY", :project_count => 3, :user_count => 5)
-Plan.create!(:title => "basic", :description => "Good for small organisations", :value => 16, :duration => "MONTHLY", :project_count => 50, :user_count => 20)
-Plan.create!(:title => "professional", :description => "Perfect for large organisations", :value => 32, :duration => "MONTHLY", :project_count => 45, :user_count => 100)
-Plan.create!(:title => "insane", :description => "Like a boss", :value => 64, :duration => "MONTHLY", :project_count => 1000, :user_count => 1000)
+Plan.create!(:title => "starter", :description => "Great for individuals", :value => 80, :duration => "MONTHLY", :project_count => 3, :user_count => 5)
+Plan.create!(:title => "professional", :description => "Perfect for large organisations", :value => 320, :duration => "MONTHLY", :project_count => 45, :user_count => 100)
+Plan.create!(:title => "insane", :description => "*Unlimited everything", :value => 640, :duration => "MONTHLY", :project_count => 1000, :user_count => 1000)
