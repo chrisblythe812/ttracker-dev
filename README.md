@@ -1,11 +1,11 @@
-TerraTracker
+TimeTracker
 ===============
 
 Simple open source time tracking and report generation for companies and freelancers.
 
-Every so often I update a demo Heroku app of the site:
+The app is running on Heroku:
 
-[VISIT DEMO](http://terratracker.herokuapp.com/)
+[VISIT DEMO](http://ttracker-dev.herokuapp.com/)
 
 ## Installation
 
@@ -17,25 +17,15 @@ Depenencies:
 
 To install:
 
-    $ git clone git@github.com:TerraCoding/TerraTracker.git
-    $ cd TerraTracker
+    $ git clone https://FHCEO@bitbucket.org/FHCEO/ttracker-dev.git
+    $ cd TimeTracker
     $ gem install bundler
     $ bundle install
     $ rake db:create:all
     $ rake db:migrate
-
-For GoCardless integration, the `config/initializers/gocardless.rb.sample` needs renaming without .sample and API keys entered in.
 
 Finally, you can start the server:
 
     $ rails s
 
 And then you can access the app by visiting [http://localhost:3000/](http://localhost:3000/)
-
-## License
-
-[GNU General Public License, version 3.0](http://opensource.org/licenses/gpl-3.0.html)
-
-## Contribute
-
-I would be more than happy for people to contribute to this project. If you have anything to offer, then just send me a pull request.
