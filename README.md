@@ -29,3 +29,5 @@ Finally, you can start the server:
     $ rails s
 
 And then you can access the app by visiting [http://localhost:3000/](http://localhost:3000/)
+username : vladimirusinov@gmail.com
+password : password
